@@ -1,0 +1,12 @@
+# import Director from './director.graphql'
+# import RepositoriesStats from './repositoriesStats.graphql'
+# import PackagesStats from './packagesStats.graphql'
+# import SecretsStats from './secretsStats.graphql'
+
+type Project {
+  director: Director
+  project: String!
+  repositoriesStats: RepositoriesStats!
+  packagesStats: [PackagesStats]!
+  secretsStats: SecretsStats!
+}

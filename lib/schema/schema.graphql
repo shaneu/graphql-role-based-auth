@@ -1,0 +1,9 @@
+# import Contributor from './contributor.graphql'
+# import Person from './person.graphql'
+# import Repository from './repository.graphql'
+
+type Query {
+  contributor(adsId: ID!): Contributor!
+  person(email: String!): Person
+  repository(name: String!): Repository
+}

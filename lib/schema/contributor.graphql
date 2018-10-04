@@ -1,0 +1,9 @@
+type Contributor {
+  employeeId: String!
+  name: String!
+  username: String!
+  email: String!
+  adsId: String! 
+  totalCommits: Int!
+  image: String
+}

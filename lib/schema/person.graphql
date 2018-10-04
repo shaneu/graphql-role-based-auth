@@ -1,0 +1,7 @@
+type Person {
+  email: String!
+  firstName: String!
+  lastName: String!
+  name: String!
+  roles: [String!]!
+}

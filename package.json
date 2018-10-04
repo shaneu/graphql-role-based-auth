@@ -1,0 +1,36 @@
+{
+  "name": "graphql-role-based-auth",
+  "version": "1.0.0",
+  "description": "POC for auth directives",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "node demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaneu/graphql-role-based-auth.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Shane Unger",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shaneu/graphql-role-based-auth/issues"
+  },
+  "homepage": "https://github.com/shaneu/graphql-role-based-auth#readme",
+  "dependencies": {
+    "graphql": "^14.0.2",
+    "graphql-import": "^0.7.1",
+    "graphql-middleware": "^1.7.5",
+    "graphql-shield": "^3.2.5",
+    "graphql-tools": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-eslint-prettier": "^1.0.1"
+  }
+}

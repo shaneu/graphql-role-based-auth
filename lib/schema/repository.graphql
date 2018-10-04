@@ -1,0 +1,11 @@
+# import Director from './director.graphql'
+# import Contributor from './contributor.graphql'
+
+type Repository {
+  name: String!
+  director: Director
+  language: String!
+  license: String
+  totalCommits: Int!
+  contributors: [Contributor]
+}
